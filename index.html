@@ -1,45 +1,93 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ChildCare Schedules Help</title><style>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>App Support</title>
+<style>
 :root { color-scheme: light dark; }
-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.6; margin: 0; background: #f8fafc; color: #0f172a; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  background: #f8fafc;
+  color: #0f172a;
+}
 main { max-width: 860px; margin: 0 auto; padding: 44px 20px 72px; }
-.card { background: white; border: 1px solid #e2e8f0; border-radius: 20px; padding: 28px; box-shadow: 0 10px 30px rgba(15,23,42,0.06); }
+.card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 28px;
+  box-shadow: 0 10px 30px rgba(15,23,42,0.06);
+}
 h1 { margin-top: 0; font-size: 2rem; line-height: 1.2; }
 h2 { margin-top: 2rem; font-size: 1.25rem; }
-h3 { margin-top: 1.35rem; }
 a { color: #2563eb; }
-code, pre { background: #f1f5f9; border-radius: 8px; }
-code { padding: 2px 5px; }
-pre { padding: 12px; overflow-x: auto; }
-.note { background: #eff6ff; border-left: 4px solid #2563eb; padding: 12px 14px; border-radius: 10px; }
 .muted { color: #475569; }
-.nav { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0 28px; }
-.nav a { text-decoration: none; border: 1px solid #cbd5e1; border-radius: 999px; padding: 8px 12px; background: #fff; }
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 18px 0 28px;
+}
+.nav a {
+  text-decoration: none;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  padding: 8px 12px;
+  background: #fff;
+}
 @media (prefers-color-scheme: dark) {
   body { background: #020617; color: #e5e7eb; }
   .card { background: #0f172a; border-color: #1e293b; }
   .muted { color: #cbd5e1; }
-  .note { background: #0b2559; }
-  code, pre { background: #111827; }
   .nav a { background: #0f172a; border-color: #334155; }
 }
-</style></head>
-<body><main><section class="card">
-<h1>ChildCare Schedules Help</h1>
-<p class="muted">Offline childcare staff scheduling with classroom coverage, floaters, and covered break/lunch/prep workflows.</p>
+</style>
+</head>
+<body>
+<main>
+<section class="card">
+
+<h1>App Support</h1>
+
+<p class="muted">
+Support, privacy information, documentation, and technical background
+for apps by Satrajit Roy.
+</p>
+
 <div class="nav">
-<a href="./user-manual.html">User Manual</a>
-<a href="./testflight-quickstart.html">TestFlight Quick Start</a>
-<a href="./support.html">Support</a>
-<a href="./privacy.html">Privacy</a>
-<a href="./technical-integration-brief.html">Technical Integration Brief</a>
+  <a href="./puzzles/sudoku/">Extreme Sudoku</a>
+  <a href="./puzzles/word-search/">Extreme Word Search</a>
+  <a href="./puzzles/polyomino/">Extreme Polyomino</a>
+  <a href="./schedules/childcare/">ChildCare Schedules</a>
+  <a href="./privacy/">Privacy</a>
 </div>
-<h2>For TestFlight testers</h2>
-<p>Start with the <a href="./testflight-quickstart.html">TestFlight Quick Start</a>, then use the <a href="./user-manual.html">User Manual</a> for details.</p>
-<h2>Formal verification note</h2>
-<p>This app uses an exact-cover scheduling engine formally proven using Rocq. The Rocq proof is a soundness proof: if the app returns a schedule, the returned schedule satisfies the exact-cover rules it was given.</p>
-<p>Rocq: <a href="https://rocq-prover.org/">https://rocq-prover.org/</a></p>
+
+<h2>Puzzles</h2>
+<p>
+Support and information for Extreme Sudoku, Extreme Word Search,
+and Extreme Polyomino.
+</p>
+
+<h2>Scheduling</h2>
+<p>
+Support and documentation for ChildCare Schedules and future
+scheduling applications.
+</p>
+
+<h2>Privacy</h2>
+<p>
+Read the <a href="./privacy/">privacy policy</a> covering these apps.
+</p>
+
 <h2>Support</h2>
-<p>Contact: <strong>satrajit.roy@gmail.com</strong></p>
-</section></main></body></html>
+<p>
+Contact: <strong><a href="mailto:satrajit.roy@gmail.com">satrajit.roy@gmail.com</a></strong>
+</p>
+
+</section>
+</main>
+</body>
+</html>
